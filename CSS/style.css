@@ -103,8 +103,6 @@ form button {
 }
 
 form span .fa-magnifying-glass {
-    color:white;
-    background-color: #0065FC;
     visibility: hidden;  
 }
 
@@ -527,6 +525,7 @@ MEDIA QUERIES max-width:768px
 
     form span .fa-magnifying-glass {
         visibility: visible;
+        background-color: #0065FC;
         color:white;
         padding-left: 10px;
     }
@@ -546,17 +545,19 @@ MEDIA QUERIES max-width:768px
     /* bloc filtres*/
     #filtres {
         flex-direction: column;
+        margin: 0;
     }
 
     #filtres button {
-        padding: 10px 0;
-        width: 40%;
+        margin:5px 5px 35px 0;
+        padding: 10px 5px;
+        width: 45%;
         text-align: left;
         font-size: 11px;
     }
 
     #filtres button i {
-        padding: 2px;
+        padding: 8px;
     }
 
     #filtre2 {
@@ -611,8 +612,7 @@ MEDIA QUERIES max-width:768px
     }
 
     section h2, article h2 {
-        padding-left: 0;
-        text-align: center
+        padding-left: 25px;
     }
 
     section a h3 {
